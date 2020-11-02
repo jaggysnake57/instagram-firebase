@@ -1,0 +1,20 @@
+.app {
+	background-color: #fafafa;
+}
+
+div[class*='makeStyles-paper'] {
+	form {
+		display: flex;
+		flex-direction: column;
+		.MuiInputBase-input {
+			margin: 20px 0;
+		}
+	}
+	img {
+		object-fit: contain;
+		height: 100px;
+	}
+}
+.MuiInput-underline::before {
+	bottom: 20px !important;
+}

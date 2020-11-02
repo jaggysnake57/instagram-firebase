@@ -1,7 +1,9 @@
 .header {
   background-color: white;
   padding: 20px;
-  border-bottom: 1px solid lightgrey; }
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between; }
   .header .logo {
     object-fit: contain;
     height: 50px; }
